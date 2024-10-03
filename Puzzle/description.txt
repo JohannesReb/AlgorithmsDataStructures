@@ -1,0 +1,12 @@
+Koostada programm, mis lahendaks kahe arvu liitmise kohta käivaid sõnamõistatusi, milles igale tähele tuleb vastavusse seada erinev kümnendnumber ning ühegi arvu alguses ei saa olla null (sõnad koosnevad ladina tähestiku suurtähtedest ning ühegi sõna pikkus ei ületa 18 tähte).
+
+Näiteks mõistatuse SEND + MORE = MONEY lahendiks on S=9, E=5, N=6, D=7, M=1, O=0, R=8, Y=2 (9567 + 1085 = 10652).
+Sõnad antakse ette käsurea parameetritena (kolm tühikutega eraldatud sõna, enne liidetavad ja seejärel summa), programmis vastavad neile main-meetodi parameetriks oleva massiivi kolm esimest elementi. Väljundis peab olema näha esialgne mõistatuse tekst, vähemalt üks lahend (kui lahendeid on) ning lahendite arv.
+
+
+Write a Java program to solve word puzzles where you have to guess which digit corresponds to which letter to make a given equality valid. Each letter must correspond to a different decimal digit, and leading zeros are not allowed in the numbers.
+
+For example, the puzzle SEND+MORE=MONEY has exactly one solution: S=9, E=5, N=6, D=7, M=1, O=0, R=8, Y=2, giving 9567+1085=10652.
+
+Input data from command line (parameter of the main method) contains three words separated by single spaces: first addend, second addend and sum. Words consist of uppercase letters of the Latin alphabet; no word is longer than 18 letters. Output has to contain the initial text of the puzzle, at least one solution (if there are any solutions) and total number of solutions. 
+
